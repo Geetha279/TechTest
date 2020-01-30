@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.button {
+  background-color: dodgerblue !important;
+  color:white;  
+  width:96px !important;
+  height:32px !important;
+  margin-left: 11px !important;
+  border-radius: 7px!important;
+}
+.savebutton {
+  background-color: dodgerblue !important;
+  color:white;  
+  width:96px !important;
+  height:32px !important;
+  margin-left: 51px !important;
+  border-radius: 7px!important;
+}
+
+.Generate {
+  padding: 141px;
+  align-content: center;
+  margin-left: 423px;
+}
+
+.TableStyle{
+  margin-top: -71px;
+  height: 37px;
+  margin-left: -9px; 
+}
+
+.Display{
+  padding: 141px;
+  align-content: center;
+  margin-left: 323px;
+}
+.DeleteButton{
+  background-color: red;
+  color: white;
+  height: 30px;
+  margin-top: -27px;
+}
+.tablecellstyle{
+  border: solid 0.5px;
+  border-radius: 3px;
+  height: 25px;
+  width: 50px;
+}
+.inputStyle{
+  width:65px;
+  height:22px;
+}
+.tableDisplayStyle{
+  border:solid 0.5px;
+  border-radius:3px;
+  height:25px;
+  width:50px;
+}
+.btnStyle{
+  text-align: center;
+  color: blue;
+}
+.linkStyle{
+  text-align: center;
+  color: blue;
+  margin-left: 17px;
+}
+.pStyle {
+  text-align: center;
+  margin-left: -318px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
